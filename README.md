@@ -163,7 +163,7 @@ jQuery(document).ready(function ($) {
 </script>
 ```
 
-以下都是RRSSB的说明，我是在它上面修改的，所以就保留了。要注意的是CNRRSSB支持的字体图标font-awesome，而不是SVG。
+以下都是RRSSB的说明，我是在它上面修改的，所以就保留了。要注意的是CNRRSSB支持的字体图标font-awesome，而不是SVG。主要是我使用的时候，自己懒的做SVG，然后国内的设计SVG没有找到，所以就用了字体图标。你也可以自己制作SVG。
 
 
 ## Other install options:
