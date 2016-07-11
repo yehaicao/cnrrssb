@@ -1,0 +1,429 @@
+/*=== cnRRSSB ===
+Contributors: codigitus
+Tags: social buttons, social sharing buttons, share buttons, 微博分享 , 微信分享, 人人网分享 ,QQ空间分享, google+ share, linkedin share
+Site:http://www.wordpressleaf.com/2016_24.html
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+
+/*--------------------------------------------------------------
+# cn Ridiculously Responsive Social Sharing Buttons
+--------------------------------------------------------------*/
+
+.entry-share {
+	margin-top: 25px;
+	margin-top: 1.5625rem;
+	margin-bottom: 30px;
+	margin-bottom: 1.875rem;
+	margin-left: -2px;
+	margin-left: -0.125rem;
+}
+
+.cnrrssb-buttons {
+	box-sizing: border-box;
+	height: 36px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.cnrrssb-buttons:after {
+	clear: both;
+}
+
+.cnrrssb-buttons:before, .cnrrssb-buttons:after {
+	content: ' ';
+	display: table;
+}
+
+.cnrrssb-buttons li {
+	box-sizing: border-box;
+	float: left;
+	height: 100%;
+	line-height: 13px;
+	list-style: none;
+	margin: 0;
+	padding: 0 2px;
+}
+
+.cnrrssb-buttons li.cnrrssb-email a {
+	background-color: #0a88ff;
+}
+
+.cnrrssb-buttons li.cnrrssb-email a:hover {
+	background-color: #006ed6;
+}
+
+.cnrrssb-buttons li.cnrrssb-qqstar a {
+	background-color: #FFD700;
+}
+
+.cnrrssb-buttons li.cnrrssb-qqstar a:hover {
+	background-color: #F1CB00;
+}
+
+.cnrrssb-buttons li.cnrrssb-weixin a {
+	background-color: #00CD00;
+}
+
+.cnrrssb-buttons li.cnrrssb-weixin a:hover {
+	background-color: #008B00;
+}
+
+.cnrrssb-buttons li.cnrrssb-renren a {
+	background-color: #007bb6;
+}
+
+.cnrrssb-buttons li.cnrrssb-renren a:hover {
+	background-color: #005983;
+}
+
+.cnrrssb-buttons li.cnrrssb-weibo a {
+	background-color: #F14226;
+}
+
+.cnrrssb-buttons li.cnrrssb-weibo a:hover {
+	background-color: #DF1C31;
+}
+
+.cnrrssb-buttons li.cnrrssb-ttweibo a {
+	background-color: #0a88ff;
+}
+
+.cnrrssb-buttons li.cnrrssb-ttweibo a:hover {
+	background-color: #006ed6;
+}
+
+.cnrrssb-buttons li.cnrrssb-youtube a {
+	background-color: #df1c31;
+}
+
+.cnrrssb-buttons li.cnrrssb-youtube a:hover {
+	background-color: #b21627;
+}
+
+.cnrrssb-buttons li.cnrrssb-reddit a {
+	background-color: #8bbbe3;
+}
+
+.cnrrssb-buttons li.cnrrssb-reddit a:hover {
+	background-color: #62a3d9;
+}
+
+.cnrrssb-buttons li.cnrrssb-qq a {
+	background-color: #ff0000;
+}
+
+.cnrrssb-buttons li.cnrrssb-qq a:hover {
+	background-color: #8a1119;
+}
+
+.cnrrssb-buttons li.cnrrssb-pocket a {
+	background-color: #ed4054;
+}
+
+.cnrrssb-buttons li.cnrrssb-pocket a:hover {
+	background-color: #e4162d;
+}
+
+.cnrrssb-buttons li.cnrrssb-github a {
+	background-color: #444;
+}
+
+.cnrrssb-buttons li.cnrrssb-github a:hover {
+	background-color: #2b2b2b;
+}
+
+.cnrrssb-buttons li.cnrrssb-instagram a {
+	background-color: #517fa4;
+}
+
+.cnrrssb-buttons li.cnrrssb-instagram a:hover {
+	background-color: #406582;
+}
+
+.cnrrssb-buttons li.cnrrssb-delicious a {
+	background-color: #0B79E5;
+}
+
+.cnrrssb-buttons li.cnrrssb-delicious a:hover {
+	background-color: #095fb4;
+}
+
+.cnrrssb-buttons li.cnrrssb-vk a {
+	background-color: #4d71a9;
+}
+
+.cnrrssb-buttons li.cnrrssb-vk a:hover {
+	background-color: #3d5a86;
+}
+
+.cnrrssb-buttons li.cnrrssb-hackernews a {
+	background-color: #ff6600;
+}
+
+.cnrrssb-buttons li.cnrrssb-hackernews a:hover {
+	background-color: #cc5200;
+}
+
+.cnrrssb-buttons li a {
+	background-color: #ccc;
+	border-radius: 2px;
+	box-sizing: border-box;
+	display: block;
+	font-size: 12px;
+	font-size: 0.75rem;
+	height: 100%;
+	padding: 11px 7px 12px 27px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color .2s ease-in-out;
+	width: 100%;
+}
+
+.cnrrssb-buttons li a .cnrrssb-icon {
+	display: block;
+	left: 10px;
+	padding-top: 9px;
+	position: absolute;
+	top: 0;
+	width: 10%;
+	font-size: 18px;
+  color: #fff;
+}
+
+.cnrrssb-buttons li a .cnrrssb-icon svg {
+	height: 17px;
+	width: 17px;
+}
+
+.cnrrssb-buttons li a .cnrrssb-icon svg path {
+	fill: #fff;
+}
+
+.cnrrssb-buttons li a .cnrrssb-text {
+	color: #fff;
+}
+
+.cnrrssb-buttons li a:active {
+	box-shadow: inset 1px 3px 15px 0 rgba(22, 0, 0, 0.25);
+}
+
+.cnrrssb-buttons li.small a {
+	padding: 0;
+}
+
+.cnrrssb-buttons li.small a .cnrrssb-icon {
+	left: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	top: auto;
+	width: 100%;
+	font-size: 14px;
+  color: #fff;
+}
+
+.cnrrssb-buttons li.small a .cnrrssb-text {
+	visibility: hidden;
+}
+
+.cnrrssb-buttons.large-format {
+	height: auto;
+}
+
+.cnrrssb-buttons.large-format li {
+	height: auto;
+}
+
+.cnrrssb-buttons.large-format li a {
+	backface-visibility: hidden;
+	border-radius: .2em;
+	padding: 8.5% 0 8.5% 12%;
+}
+
+.cnrrssb-buttons.large-format li a .cnrrssb-icon {
+	height: 100%;
+	left: 7%;
+	padding-top: 6.5%;
+	width: 12%;
+	font-size: 50px;
+}
+
+.cnrrssb-buttons.large-format li a .cnrrssb-icon svg {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.cnrrssb-buttons.large-format li a .cnrrssb-text {
+	backface-visibility: hidden;
+}
+
+.cnrrssb-buttons.small-format {
+	padding-top: 5px;
+}
+
+.cnrrssb-buttons.small-format li {
+	height: 80%;
+	padding: 0 1px;
+}
+
+.cnrrssb-buttons.small-format li a .cnrrssb-icon {
+	height: 100%;
+	padding-top: 5px;
+}
+
+.cnrrssb-buttons.small-format li a .cnrrssb-icon svg {
+	height: 48%;
+	position: relative;
+	top: 6px;
+	width: 80%;
+}
+
+.cnrrssb-buttons.tiny-format {
+	height: 22px;
+	position: relative;
+}
+
+.cnrrssb-buttons.tiny-format li {
+	padding-right: 7px;
+}
+
+.cnrrssb-buttons.tiny-format li a {
+	background-color: transparent;
+	padding: 0;
+}
+
+.cnrrssb-buttons.tiny-format li a .cnrrssb-icon svg {
+	height: 70%;
+	width: 100%;
+}
+
+.cnrrssb-buttons.tiny-format li a:hover, .cnrrssb-buttons.tiny-format li a:active {
+	background-color: transparent;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-email a .cnrrssb-icon svg path {
+	fill: #0a88ff;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-email a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #0054a3;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-qqstar a .cnrrssb-icon svg path {
+	fill: #306199;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-qqstar a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #18304b;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-weixin a .cnrrssb-icon svg path {
+	fill: #32506d;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-weixin a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #121d27;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-renren a .cnrrssb-icon svg path {
+	fill: #007bb6;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-renren a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #003650;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-weibo a .cnrrssb-icon svg path {
+	fill: #26c4f1;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-weibo a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #0b84a6;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-ttweibo a .cnrrssb-icon svg path {
+	fill: #e93f2e;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-ttweibo a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #a01e11;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-youtube a .cnrrssb-icon svg path {
+	fill: #df1c31;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-youtube a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #84111d;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-reddit a .cnrrssb-icon svg path {
+	fill: #8bbbe3;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-reddit a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #398bcf;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-qq a .cnrrssb-icon svg path {
+	fill: #b81621;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-qq a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #5d0b11;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-pocket a .cnrrssb-icon svg path {
+	fill: #ed4054;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-pocket a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #b61124;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-github a .cnrrssb-icon svg path {
+	fill: #444;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-github a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #111111;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-instagram a .cnrrssb-icon svg path {
+	fill: #517fa4;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-instagram a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #2f4a60;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-delicious a .cnrrssb-icon svg path {
+	fill: #0B79E5;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-delicious a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #064684;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-vk a .cnrrssb-icon svg path {
+	fill: #4d71a9;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-vk a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #2d4263;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-hackernews a .cnrrssb-icon svg path {
+	fill: #ff6600;
+}
+
+.cnrrssb-buttons.tiny-format li.cnrrssb-hackernews a .cnrrssb-icon:hover .cnrrssb-icon svg path {
+	fill: #993d00;
+}
